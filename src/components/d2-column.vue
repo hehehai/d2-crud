@@ -1,8 +1,8 @@
 <template>
   <div>
     <el-table-column
-      v-for="(item, index) in columns"
-      :key="index"
+      v-for="item in columns"
+      :key="item.key"
       :label="handleAttribute(item.title, '')"
       :prop="handleAttribute(item.key, null)"
       v-bind="item"

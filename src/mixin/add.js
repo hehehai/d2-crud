@@ -6,15 +6,15 @@ export default {
     /**
      * @description 新增行数据
      */
-    handleAdd (templage = null) {
+    handleAdd (template = null) {
       this.formMode = 'add'
       this.$emit('dialog-open', {
         mode: 'add'
       })
       this.isDialogShow = true
-      if (templage) {
-        this.formData = _clonedeep(templage)
-        this.addTemplateStorage = _clonedeep(templage)
+      if (template) {
+        this.formData = _clonedeep(template)
+        this.addTemplateStorage = _clonedeep(template)
       } else {
         this.formData = this.addTemplate ? _clonedeep(this.addTemplate) : {}
         this.addTemplateStorage = this.addTemplate ? _clonedeep(this.addTemplate) : {}

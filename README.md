@@ -1,5 +1,3 @@
-![](https://raw.githubusercontent.com/d2-projects/d2-crud/master/doc/image/banner.png)
-
 ![npm](https://img.shields.io/npm/v/@d2-projects/d2-crud.svg)
 ![npm](https://img.shields.io/npm/dt/@d2-projects/d2-crud.svg)
 ![GitHub license](https://img.shields.io/github/license/d2-projects/d2-crud.svg)
@@ -12,7 +10,7 @@
 
 ## 文档和示例
 
-文档：<https://d2.pub/zh/doc/d2-crud-v2>   
+文档：<https://d2.pub/zh/doc/d2-crud-v2>
 示例：<https://d2.pub/d2-admin/preview/#/demo/d2-crud/index>
 
 ## 功能
@@ -58,9 +56,3 @@ new Vue({
 ```
 
 之后就可以在项目中使用 `D2-Crud` 了。
-
-## CDN
-
-externals: D2Crud
-
-https://cdn.d2.pub/packages/@d2-projects/d2-crud@2.0.5/d2-crud.js
